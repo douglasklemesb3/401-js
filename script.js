@@ -20,8 +20,8 @@ let contador = 0;
      console.log(jujuba)
  }*/
 
-/*
-ATIVIDADE
+
+
 let filmes = [
              {nome:"rei leão", classificacao: 10, estilo: "animacao"},
              {nome:"velozes e furiosos",classificacao:16, estilo:"açao"},
@@ -33,9 +33,7 @@ let idade = prompt("digite sua idade");
 
 for(let filme of filmes){
     if(idade >= filme.classificacao){
-    alert(` Olá, ${nome} pode assistir ${filme.nome}.`)
+    console.log(` Olá, ${nome} pode assistir ${filme.nome}.`)
 }
-    else{
-        alert(`Olá, ${nome} não pode assistir ${filme.nome}.`)
-    }
-}*/
+
+}
